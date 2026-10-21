@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Stock - Produto Encontrado</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px 15px;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        .cartao {
+            max-width: 360px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 25px 20px 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 8px 0 14px;
+            text-align: center;
+            font-size: 22px;
+            color: #21866e;
+        }
+
+        h2 {
+            margin: 0 0 18px;
+            text-align: center;
+            font-size: 17px;
+            color: #222;
+        }
+
+        .linha {
+            display: grid;
+            grid-template-columns: 42% 58%;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 12px;
+        }
+
+        .campo {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .valor {
+            text-align: center;
+            overflow-wrap: anywhere;
+        }
+
+        .status {
+            font-weight: bold;
+            color: #21866e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="cartao">
+
+        <h1>Smart Stock</h1>
+        <h2>Produto Encontrado</h2>
+
+        <div class="linha">
+            <span class="campo">Código</span>
+            <span class="valor">789100002</span>
+        </div>
+
+        <div class="linha">
+            <span class="campo">Produto</span>
+            <span class="valor">Biscoito Recheado 140g</span>
+        </div>
+
+        <div class="linha">
+            <span class="campo">Marca</span>
+            <span class="valor">Oreo</span>
+        </div>
+
+        <div class="linha">
+            <span class="campo">Categoria</span>
+            <span class="valor">Alimentos</span>
+        </div>
+
+        <div class="linha">
+            <span class="campo">Validade</span>
+            <span class="valor">15/12/2026</span>
+        </div>
+
+        <div class="linha">
+            <span class="campo">Status</span>
+            <span class="valor status">✓ Dentro da validade</span>
+        </div>
+
+        <div class="linha">
+            <span class="campo">Local</span>
+            <span class="valor">Corredor B - Prateleira 3</span>
+        </div>
+
+    </main>
+
+</body>
+</html>
